@@ -1,0 +1,11 @@
+{
+    "api_id": "123456",
+    "api_hash": "your_api_hash",
+    "phone_number": "+1234567890",
+    "session_path": "path/to/session",
+    "search_query": "example",
+    "images_path": "downloads/images",
+    "archives_path": "downloads/archives",
+    "max_concurrent_downloads": 3,
+    "chunk_size": 1048576
+}
