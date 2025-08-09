@@ -52,13 +52,13 @@ python telegram_downloader.py
 ### 🖥 Usage Guide
 **1️⃣ Setup API Credentials**
 
-Get your API ID and API Hash from my.telegram.org.
+- Get your API ID and API Hash from my.telegram.org.
 
-Enter them in the "Telegram Configuration" section.
+- Enter them in the "Telegram Configuration" section.
 
 **2️⃣ Session File**
 
-Choose a .session file path where Telegram login details will be saved.
+- Choose a .session file path where Telegram login details will be saved.
 
 **3️⃣ Login**
 
@@ -115,13 +115,13 @@ The app saves settings to config.json:
 }
 ```
 ### 🛡 Error Handling
-Session expired → Re-run "Setup Session".
+- Session expired → Re-run "Setup Session".
 
-FloodWaitError → App waits automatically for Telegram rate limit cooldown.
+- FloodWaitError → App waits automatically for Telegram rate limit cooldown.
 
-File already exists → Skips downloading to save time.
+- File already exists → Skips downloading to save time.
 
-Invalid credentials → Recheck API ID, API Hash, and phone number.
+- Invalid credentials → Recheck API ID, API Hash, and phone number.
 
 ### 📜 License
 This project is licensed under the MIT License — feel free to modify and share.
